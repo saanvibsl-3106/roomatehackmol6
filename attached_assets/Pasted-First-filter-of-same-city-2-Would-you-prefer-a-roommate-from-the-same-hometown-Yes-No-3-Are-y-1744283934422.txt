@@ -1,0 +1,106 @@
+First filter of same city
+
+2. Would you prefer a roommate from the same hometown?
+Yes / No
+
+3. Are you comfortable living with a non-vegetarian roommate?
+Yes / No
+
+4. Do you smoke?
+Yes / No
+
+5. Do you consume alcohol?
+Yes / No / Occasionally
+
+6. Religion preference for roommate:
+Any / Prefer my own
+
+7. What’s your daily rhythm?
+Early bird / Night owl
+
+8. Social personality:
+Introvert / Extrovert
+
+9. Do you enjoy loud music or house parties at home?
+Yes / No
+
+10. Are you okay with fairly splitting groceries?
+Yes / No
+
+11. How do you usually manage daily chores (laundry, kitchen, dishes)?
+Do it myself / By maid / Outsource (laundry service / tiffin, etc.)
+
+12. Preferred way of keeping shared spaces clean:
+Alternate turns / Hire a maid / Don’t mind a bit of mess
+
+13. Noise tolerance level:
+Prefer a quiet environment / Okay with regular noise
+
+14. Are you okay with pets at home?
+Yes / No / Depends on the pet
+
+15. Guests policy: Are you comfortable with overnight visitors?
+Yes / No / Only with prior notice
+
+16. Are you open to sharing personal items (utensils, appliances, etc.)?
+Yes / No / Selective, depending on the item
+
+17. Preferred Gender  
+Male/Female/Any
+
+18. Temperature/AC preferences:
+Always cool / Moderate / Prefer less AC use /Doesn't bother 
+
+19.  Festive celebrations at home (Diwali, Christmas, etc.):
+Celebrate together / Celebrate separately / No interest
+
+20. How long are you planning to stay?
+Short term (<6 months) / Medium term (6-12 months) / Long term (>1 year)
+
+21. Are you comfortable with sharing emergency responsibilities?
+Yes / No / Depends (like collecting parcels, helping in urgent situations)
+
+22.  Do you mind late-night calls or video chats at home?
+Yes / No / With headphones only
+
+23. Do you follow any particular diet restrictions that affect shared cooking?
+Yes (please specify) / No
+
+24. Are you a light sleeper or heavy sleeper?
+Light / Heavy
+
+25. Expectations during exam or work deadlines:
+Respect quiet / No change / Depends on situation
+
+26. Privacy level expected in the room:
+High privacy / Moderate / Open
+
+27. Views on dividing household work beyond cleaning (like maintenance calls, bill reminders):
+Rotate fairly / Take personal responsibility / Prefer roommate to manage
+
+28. If either roommate plans to move out, how much notice period is acceptable?
+15 days / 1 month / More than a month
+
+29. Are you open to pooling for home improvements? (like better furniture, kitchen tools)
+Yes / No / Depends on expense
+
+30. Preferred way to split chores:
+Fixed responsibilities / Weekly rotation / Flexible, as needed
+
+31. Are you comfortable handling deliveries and packages for the household?
+Yes / No / When available
+
+32. Do you expect a shared budget for household essentials (cleaning supplies, etc.)?
+Yes / No / Depends on situation
+
+33. Backup key management:
+Comfortable with roommate keeping a spare / Prefer personal only / Case by case
+
+34. Are you into fitness or daily workouts at home?
+Yes / No / Occasionally
+
+35. Are you comfortable with workout equipment at home (like yoga mats, dumbbells)?
+Yes / No / Minimal only
+
+36. Are you comfortable if lights stay on late at night?
+Yes, totally fine/ No, I prefer lights off after a certain time /Depends, if it’s occasional or necessary
