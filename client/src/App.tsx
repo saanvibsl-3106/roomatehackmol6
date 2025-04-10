@@ -11,6 +11,7 @@ import { ProtectedRoute } from "./lib/protected-route";
 import { AuthProvider } from "./hooks/use-auth";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
+import QuestionnairePage from "./pages/questionnaire-page"; // Added import
 
 function Router() {
   return (
@@ -23,6 +24,7 @@ function Router() {
           <ProtectedRoute path="/profile" component={ProfilePage} />
           <ProtectedRoute path="/messages" component={MessagesPage} />
           <ProtectedRoute path="/messages/:id" component={MessagesPage} />
+          <ProtectedRoute path="/questionnaire" component={QuestionnairePage} /> {/* Added route */}
           <Route component={NotFound} />
         </Switch>
       </div>
