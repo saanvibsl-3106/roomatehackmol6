@@ -10,7 +10,7 @@ import { apiRequest } from "@/lib/queryClient";
 import ProfileModal from "@/components/profile-modal";
 import MessageModal from "@/components/message-modal";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-
+import { Link } from "wouter";
 export default function HomePage() {
   const { user } = useAuth();
   const [filters, setFilters] = useState<RoommateFilter>({});
@@ -115,6 +115,86 @@ export default function HomePage() {
   };
 
   return (
+    <>
+  <div className="bg-container">
+      <div className="overlay">
+        <h1 className="typing-text">Welcome to the Roommate Finder..</h1>
+      </div>
+    </div>
+    
+     {/* <div className="min-h-screen bg-gradient-to-r from-indigo-600 to-violet-600 text-white flex flex-col mt-10" >
+   
+      <section className="flex flex-col items-center justify-center text-center py-20 px-4">
+        <h1 className="text-5xl font-bold mb-4">Find Your Perfect Roommate</h1>
+        <p className="text-lg max-w-2xl mb-6">
+          Our platform connects you with like-minded roommates based on interests, lifestyle, and preferences. Say goodbye to random matches and hello to better living!
+        </p>
+        <Link href="/auth">
+          <button className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-xl hover:bg-indigo-100 transition">
+            Get Started
+          </button>
+        </Link>
+      </section> */}
+
+<div className=" flex items-center justify-center px-4 mt-20">
+      <div className="max-w-6xl w-full flex bg-white  shadow-2xl overflow-hidden">
+        
+        {/* Left Side with Content */}
+        <div className="w-2/3 p-10 flex flex-col justify-center text-left">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">Find Your Perfect Roommate</h1>
+          <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+            Our platform connects you with like-minded roommates based on interests, lifestyle, and preferences.
+            Say goodbye to random matches and hello to better living!
+          </p>
+          <button className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
+            Get Started
+          </button>
+        </div>
+
+        {/* Right Side - Blue Visual */}
+        <div className="w-1/3 bg-gradient-to-t from-blue-600 to-indigo-500 flex justify-center items-center">
+          {/* Optional graphic/icon/illustration can go here */}
+          <span className="text-white text-2xl font-semibold">RoomieMatch</span>
+        </div>
+      </div>
+    </div>
+
+      {/* Image and Info Section */}
+      {/* <section className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white text-slate-800 px-6 py-16">
+        <div className="md:w-1/2">
+          <img
+            src=".././public/flat3.jpg"
+            alt="Roommate Finder Illustration"
+            className="w-full h-auto rounded-2xl shadow-lg"
+          />
+        </div>
+        <div className="md:w-1/2 text-left">
+          <h2 className="text-3xl font-bold mb-4 text-violet-600">How It Works</h2>
+          <ul className="space-y-3 text-lg">
+            <li>🔍 Answer a few questions to help us understand your preferences.</li>
+            <li>🤝 We match you with compatible roommates in your preferred location.</li>
+            <li>💬 Chat with your matches to get to know them better.</li>
+            <li>🏠 Finalize the move and enjoy stress-free shared living!</li>
+          </ul>
+        </div>
+      </section> */}
+    {/* </div> */}
+
+    <div className="section-container">
+      <div className="section-image">
+        <img src="public/flat3.jpg" alt="Modern apartment interior" />
+      </div>
+      <div className="section-text">
+        <h2>How It Works</h2>
+        <ul>
+          <li>🔍 Answer a few questions to help us understand your preferences.</li>
+          <li>🤝 We match you with compatible roommates in your preferred location.</li>
+          <li>💬 Chat with your matches to get to know them better.</li>
+          <li>🏠 Finalize the move and enjoy stress-free shared living!</li>
+        </ul>
+      </div>
+    </div>
+
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
       <div className="flex flex-col md:flex-row gap-6">
         {/* Filters Sidebar */}
@@ -232,5 +312,6 @@ export default function HomePage() {
         />
       )}
     </div>
-  );
+    </>
+  );
 }

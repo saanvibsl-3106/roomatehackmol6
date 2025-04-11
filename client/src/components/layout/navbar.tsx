@@ -7,6 +7,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Home, Menu, MessageSquare, Search, User } from "lucide-react";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { user, logoutMutation } = useAuth();
@@ -25,9 +26,11 @@ export default function Navbar() {
     { href: "/", label: "Home", icon: <Home className="h-5 w-5 mr-2" /> },
     { href: "/messages", label: "Messages", icon: <MessageSquare className="h-5 w-5 mr-2" /> },
     { href: "/profile", label: "My Profile", icon: <User className="h-5 w-5 mr-2" /> },
+    { href: "/propertyfinder", label: "Properties", icon: <Search className="h-5 w-5 mr-2" /> },
+    //  { href: "/questionnaire", icon: <Menu className="h-5 w-5 mr-2" /> },
   ];
 
-  const handleLogout = () => {
+  const handleLogout = () => { 
     logoutMutation.mutate();
   };
 

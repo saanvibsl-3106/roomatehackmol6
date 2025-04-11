@@ -6,11 +6,13 @@ import NotFound from "@/pages/not-found.jsx";
 import HomePage from "@/pages/home-page";
 import AuthPage from "@/pages/auth-page";
 import ProfilePage from "@/pages/profile-page";
+import PropertySearch from "./pages/Propertyfinder-page"
 import MessagesPage from "@/pages/messages-page";
 import { ProtectedRoute } from "./lib/protected-route";
 import { AuthProvider } from "./hooks/use-auth";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
+import QuestionnairePage from "./pages/questionnaire-page";
 
 function Router() {
   return (
@@ -23,6 +25,8 @@ function Router() {
           <ProtectedRoute path="/profile" component={ProfilePage} />
           <ProtectedRoute path="/messages" component={MessagesPage} />
           <ProtectedRoute path="/messages/:id" component={MessagesPage} />
+          <ProtectedRoute path="/questionnaire" component={QuestionnairePage} />
+          <ProtectedRoute path="/propertyfinder" component={PropertySearch} />
           <Route component={NotFound} />
         </Switch>
       </div>

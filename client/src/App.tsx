@@ -12,6 +12,8 @@ import { AuthProvider } from "./hooks/use-auth";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
 import QuestionnairePage from "./pages/questionnaire-page"; // Added import
+import PropertySearch from "./pages/Propertyfinder-page";
+
 
 function Router() {
   return (
@@ -24,7 +26,9 @@ function Router() {
           <ProtectedRoute path="/profile" component={ProfilePage} />
           <ProtectedRoute path="/messages" component={MessagesPage} />
           <ProtectedRoute path="/messages/:id" component={MessagesPage} />
-          <ProtectedRoute path="/questionnaire" component={QuestionnairePage} /> {/* Added route */}
+          <ProtectedRoute path="/questionnaire" component={QuestionnairePage} />
+          <Route path="/propertyfinder" component={PropertySearch} />
+           {/* Added route */}
           <Route component={NotFound} />
         </Switch>
       </div>
